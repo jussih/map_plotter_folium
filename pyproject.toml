@@ -1,0 +1,13 @@
+[project]
+name = "map-plotter-folium"
+version = "0.1.0"
+description = "Plot GPX tracks on a map with heatmap-like coloring"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "folium>=0.19.2",
+    "gpxpy>=1.6.2",
+    "numpy>=2.2.0",
+    "pyproj>=3.7.0",
+    "shapely>=2.0.6",
+]
